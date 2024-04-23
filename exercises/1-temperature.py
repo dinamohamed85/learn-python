@@ -1,3 +1,4 @@
+#Temperature degrees conversions Celsius to Fahrenheit
 '''
     1- take input temperature(in celsius) from user
     2- create conversion equation/formula to calculte temperature in fahrenheit
