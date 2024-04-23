@@ -1,5 +1,5 @@
-# learn-python
-## python tutorial and exercises
+# Learn Python
+## Python Tutorial and Exercises
 ### Git commands
 git clone https://github.com/dinamohamed85/learn-python.git
 <br />
