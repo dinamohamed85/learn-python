@@ -3,14 +3,14 @@
 ### Git commands
 git clone https://github.com/dinamohamed85/learn-python.git
 <br />
-git pull origin master
-
 ### Git commands for edit
 git config --global user.email 
 <br />
 git config --global user.name 
 <br />
 git config --global user.password 
+<br />
+git pull
 <br />
 git add .
 <br />
