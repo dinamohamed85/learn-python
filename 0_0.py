@@ -1,4 +1,5 @@
 from math import *
+
 # variable_name = Value (saved in Ram memory)
 id = 5
 print(5)
@@ -60,10 +61,10 @@ print(phrase[-1:])
 print(phrase[0:])
 print(phrase[-3:-8:-1])
 # upper() lower() find count('A') replace('Ali','saad')
-#concatenation
+# string concatenation
 # 3 methods
 # first_name + second_name
 # formated string format(first_name,second_name)
 # {first_name} , {second_name}
-#print(dir(phrase))
+# print(dir(phrase))
 #----------------------------------------------------------
