@@ -2,6 +2,7 @@
 ## Python Tutorial and Exercises
 ### Command to run python file (in terminal)
 cd F:\python-learn\exercises
+<br />
 python 1-temperature.py
 ## Git commands :-
 0- Dowload the repository from Github
