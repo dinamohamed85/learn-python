@@ -5,6 +5,7 @@ cd F:\python-learn\exercises
 python 1-temperature.py
 ### Git commands
 0- to dowload the repository from the github
+<br />
 git clone https://github.com/dinamohamed85/learn-python.git
 <br />
 ### Git commands for adding changes to the git repository
