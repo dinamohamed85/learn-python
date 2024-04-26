@@ -3,6 +3,9 @@
 ### Git commands
 git clone https://github.com/dinamohamed85/learn-python.git
 <br />
+### run commmand
+cd F:\python-learn\exercises
+python 1-temperature.py
 ### Git commands for edit
 git config --global user.email 
 <br />
