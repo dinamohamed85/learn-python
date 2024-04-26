@@ -1,6 +1,6 @@
 # Learn Python
 ## Python Tutorial and Exercises
-###Command to run python file (in terminal)
+### Command to run python file (in terminal)
 cd F:\python-learn\exercises
 python 1-temperature.py
 ## Git commands :-
