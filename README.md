@@ -1,6 +1,6 @@
 # Learn Python
 ## Python Tutorial and Exercises
-### to run python file command
+###Command to run python file (in terminal)
 cd F:\python-learn\exercises
 python 1-temperature.py
 ## Git commands :-
@@ -8,7 +8,7 @@ python 1-temperature.py
 <br />
 git clone https://github.com/dinamohamed85/learn-python.git
 <br />
-### Git commands for adding changes to the git repository
+### Git commands for adding changes to the Git repository
 ### 1- Commands only first time
 git config --global user.email 
 <br />
