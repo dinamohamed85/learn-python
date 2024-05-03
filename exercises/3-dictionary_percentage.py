@@ -9,15 +9,16 @@
     student correct to 2 decimal places.
 '''
 # Solution 1 is to slice the string and join it back.
-n = int(input('enter the number students: '))
+n = int(input('enter the number of students you want to provid: '))
 student_marks = {}
 for i in range(n):
-    name, *line = input("enter name and scroe (spared by space): ").split()
+    name, *line = input("enter name and scores (separated by space): ").split()
     scores = list(map(float, line))
     student_marks[name] = scores
-student_name = input('enter the name of student:')
+student_name = input(
+    'enter the name of student whose percentage you want to print:')
 list_1 = list(student_marks[student_name])
 
 sum_marks = sum(list_1)
 average = sum_marks/len(list_1)
-print("The average score " ,'%.2f' % average)
+print("The average score for ", student_name,  " is: ", '%.2f' % average)
