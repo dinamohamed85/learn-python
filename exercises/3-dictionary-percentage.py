@@ -8,13 +8,14 @@
     4- print float: The average of the marks obtained by the particular 
     student correct to 2 decimal places.
 '''
-# Solution 1 is to slice the string and join it back.
+# Solution .
 n = int(input('enter the number of students you want to provid: '))
 student_marks = {}
 for i in range(n):
     name, *line = input("enter name and scores (separated by space): ").split()
     scores = list(map(float, line))
     student_marks[name] = scores
+    
 student_name = input(
     'enter the name of student whose percentage you want to print:')
 list_1 = list(student_marks[student_name])
