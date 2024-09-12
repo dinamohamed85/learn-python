@@ -9,7 +9,6 @@
     7- C = 5/9 * F -32
     8- print the result {temperature from celsius to fahrenheit}
 '''
-
 # convert celsius to fahrenheit
 input_temprature_celsius = input("please enter the temperature in celsius  :")
 temprature_fahrenheit = (9/5 * float(input_temprature_celsius)) + 32

@@ -1,4 +1,4 @@
-from math import *
+from math, cmath import *
 
 # variable_name = Value (saved in Ram memory)
 id = 5
@@ -44,19 +44,19 @@ input_5 = "summtion= "
 convert_result_to_string = str(result2)
 print(input_5 + convert_result_to_string)
 
-#user_nmae = input("plz enter your name :")
-#type , int()  , float()
-# + - * / % abs pow 3**2 min max ciel floor round sqrt
+# user_nmae = input("plz enter your name :")
+# type , int()  , float()
+# + - * / % abs pow 3**2 min max ciel floor round sqrt sqrt
 phrase = ' enter your \' '
 phrase2 = ''' hallo ,
             how are you'''
-# len() 
+# len()
 print(phrase[0])    # -1 -2 -3 -4 -5 hello
 print(phrase.index('e'))
-#slicing
+# slicing
 print(phrase[1:4])
 print(phrase[-1:-4])
-#print(phrase[:-1])
+# print(phrase[:-1])
 print(phrase[-1:])
 print(phrase[0:])
 print(phrase[-3:-8:-1])
@@ -67,4 +67,26 @@ print(phrase[-3:-8:-1])
 # formated string format(first_name,second_name)
 # {first_name} , {second_name}
 # print(dir(phrase))
-#----------------------------------------------------------
+# ----------------------------------------------------------
+num_int, num_float, var_str = 1, .5, "dina"
+num = 10 * 2   # 10 pow 6
+round(num, 3)
+new_num = format(num, 3)
+new_num = f"the number {num:.3f}"
+# int , float,  string,  bool , complex  , list , tuble , dictionry , set
+# complex numbers
+num1 = 2+5j  # imaganary
+str = "   \t fdfdff "
+str.strip()
+str.split(',')  # tokenazation maxsplit
+# row string escape the spicail charachter
+str_m = r"i will \tgo \n"
+# printable Ascii table
+ord('A')
+chr(65)
+# non Ascii table
+ascii('')  # \x32
+# double divion //  to get only int
+#
+# elif
+# -------------------------------------
